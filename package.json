@@ -1,0 +1,12 @@
+{
+  "name": "glow-web-test",
+  "version": "1.0.0",
+  "author": "elvis@lnmpy.com",
+  "license": "MIT",
+  "devDependencies": {
+    "wdio-jasmine-framework": "^0.3.0",
+    "wdio-selenium-standalone-service": "0.0.8",
+    "wdio-spec-reporter": "^0.1.0",
+    "webdriverio": "^4.6.2"
+  }
+}
