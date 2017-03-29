@@ -8,7 +8,7 @@ all: dev
 install:
 	@npm install
 	@cp .wdio-selenium-standalone-service_build_launcher.js node_modules/wdio-selenium-standalone-service/build/launcher.js  
-	@selenium-standalone install --drivers.chrome.version=2.15
+	@selenium-standalone install --drivers.chrome.version=2.28
 
 dev:
 	@export ENV_NAME='dev' && wdio
