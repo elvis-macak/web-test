@@ -1,3 +1,7 @@
+dependencies:
+  override:
+    - make install
+
 test:
   override:
-    - make install && make prod
+    - make prod

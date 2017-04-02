@@ -1,5 +1,4 @@
 export PATH := node_modules/.bin/:$(PATH)
-export NODE_PATH := .:$(NODE_PATH)
 
 SHELL = /bin/bash
 
@@ -7,8 +6,8 @@ all: dev
 
 install:
 	@npm install
-	@cp .wdio-selenium-standalone-service_build_launcher.js node_modules/wdio-selenium-standalone-service/build/launcher.js  
-	@selenium-standalone install --drivers.chrome.version=2.28
+	# @cp .wdio-selenium-standalone-service_build_launcher.js node_modules/wdio-selenium-standalone-service/build/launcher.js
+	# @selenium-standalone install --drivers.chrome.version=2.28
 
 dev:
 	@export ENV_NAME='dev' && wdio
