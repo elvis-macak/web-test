@@ -1,4 +1,5 @@
 export PATH := node_modules/.bin/:$(PATH)
+export NODE_PATH := .:$(NODE_PATH)
 
 SHELL = /bin/bash
 
