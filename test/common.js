@@ -1,4 +1,4 @@
-const CONFIG = require('config')(process.env.ENV_NAME);
+const CONFIG = require('../config')(process.env.ENV_NAME);
 
 describe('Common', ()=>{
   for (url of CONFIG.urls) {
