@@ -6,7 +6,7 @@ const urlPrefixes = {
 };
 
 module.exports = (env)=>{
-  env = env || 'dev';
+  env = env || 'prod';
   return {
     // functions
     prefixUrl: u=>urlPrefixes[env]+u,

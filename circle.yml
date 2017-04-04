@@ -4,4 +4,4 @@ dependencies:
 
 test:
   override:
-    - make prod
+    - make test
