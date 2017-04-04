@@ -2,11 +2,13 @@ export PATH := node_modules/.bin/:$(PATH)
 
 SHELL = /bin/bash
 
-all: dev
+
+all: prod
 
 install:
 	@yarn install
 
+.PHONY: test
 test:
 	@wdio
 
